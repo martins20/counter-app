@@ -1,9 +1,10 @@
+import { Counter } from "../../components/counter";
 import { Container } from "./styles";
 
 export const Home = () => {
   return (
     <Container>
-      <h1>Home</h1>
+     <Counter />
     </Container>
   );
 };
