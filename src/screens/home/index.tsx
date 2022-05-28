@@ -4,7 +4,7 @@ import { Container } from "./styles";
 export const Home = () => {
   return (
     <Container>
-     <Counter />
+      <Counter />
     </Container>
   );
 };

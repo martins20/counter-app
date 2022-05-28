@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Button } from "../button";
 import { Container, Number } from "./styles";
 
 export const Counter = () => {
@@ -13,13 +14,11 @@ export const Counter = () => {
 
   return (
     <Container>
-      <button onClick={decrement}>
-        <b>{"<"}</b>
-      </button>
+      <Button onClick={decrement} text="<" />
+
       <Number>{counter}</Number>
-      <button onClick={increment}>
-        <b>{">"}</b>
-      </button>
+      
+      <Button onClick={increment} text=">" />
     </Container>
   );
 };
