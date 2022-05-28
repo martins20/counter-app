@@ -1,9 +1,11 @@
-function App() {
+import { Home } from "./screens/home";
+import { GlobalStyle } from "./styles/global-styles";
+
+export const App = () => {
   return (
     <>
-      <h1>Hello World !!!</h1>
+      <GlobalStyle />
+      <Home />
     </>
   );
-}
-
-export default App;
+};
